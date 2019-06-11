@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#image {
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+h1 {
+font-size: 140px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #234477;
+  margin: 0px;
+}
+.word {
+  position: absolute;
+  top: 100px;
+  left: 750px;
+  background-color: #f4f3de;
+ width: 500px;
+}
+.word2 {
+  position: absolute;
+  top: 275px;
+  left: 750px;
+  background-color: #f4f3de;
+  width: 300px;
+}
+h3 {
+  position: relative;
+  top: 450px;
+  font-family: 'Roboto Slab', serif;
+  color: #234477;
+}
+p {
+  color: #7a7b7c;
+  position: relative;
+  top: 450px;
+  font-family: 'Roboto Slab', serif;
+}
+.one {
+  position: absolute;
+  top: 700px;
+  left: 800px;
+  height: 300px;
+  width: 225px;
+  object-fit: cover;
+}
+.two {
+  position: absolute;
+  top: 700px;
+  left: 1050px;
+  height: 300px;
+  width: 225px;
+}
+.three {
+  position: absolute;
+  top: 700px;
+  left: 1300px;
+  height: 300px;
+  width: 225px;
+  object-fit: cover;
+}
+
+@media screen and (max-width:500px){
+  
+  body{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #image{
+    height: 600px;
+    width: 100vw;
+  }
+  
+  .word {
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    font-size: 100px;
+    background-color:  #f4f3de;
+    width: 375px;
+  }
+  .word2 {
+    position: absoute;
+    top: 675px;
+    left: 0px;
+    font-size: 100px;
+    background-color:  #f4f3de;
+    width: 230px;
+  }
+  
+  h3{
+    position: relative;
+    top: 175px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  p{
+    position: relative;
+    top: 190px;
+    width: 375px;
+    text-align: center;
+  }
+  
+  .one{
+    position: absolute;
+    left: 25%;
+    top: 1250px;
+    height: 200px;
+    width: 200px;
+  }
+  .two {
+    position: absolute;
+    left: 25%;
+    top: 1475px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .three {
+    position: absolute;
+    left: 25%;
+    top: 1700px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+}
